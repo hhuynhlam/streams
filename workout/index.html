@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Workout Log</title>
+  <meta name="description" content="A simple workout log for educational purposes.">
+  <meta name="author" content="Hai Huynhlam">
+</head>
+
+<body>
+  <h1 class="page-title">Workout Log</h1>
+
+  <select id="UserSelector">
+    <option data-keep="true" disabled selected>Choose an athlete.</option>
+  </select>
+  <button id="UserAdd">
+    + Athlete
+  </button>
+
+  <button id="ExerciseAdd">
+    + Exercise
+  </button>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Weight x Reps</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="WorkoutTable"></tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
